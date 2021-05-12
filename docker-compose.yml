@@ -1,7 +1,7 @@
 version: '3'
 services:
   server:
-    image: 191119971860/test:latest
+    image: 191119971860/cloudcomputinggroup102:latest
     container_name: cloudcomputinggroup102
     depends_on:
       - "mongodb"
